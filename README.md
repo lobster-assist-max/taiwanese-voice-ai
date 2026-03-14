@@ -56,6 +56,9 @@
 - [Docs](https://docs.retellai.com/)
 - [Custom LLM WebSocket](https://docs.retellai.com/api-references/llm-websocket)
 - [Create Agent API](https://docs.retellai.com/api-references/create-agent)
+- [Discord](https://discord.com/invite/retellai) ⬅️ 可以在這裡發問
+- [LinkedIn](https://www.linkedin.com/company/retellai)
+- 創辦人：Yan Wang
 
 ---
 
@@ -65,7 +68,14 @@
 - 專案啟動
 - 研究 Retell AI 架構
 - 發現 `custom_stt_config` 已支援 Azure，可能可以擴展
-- 發送初次詢問 email
+- 發送初次詢問 email 至 support@retellai.com
+- 建立 GitHub repo
+- 設定 3 個追蹤 cron jobs（09:00, 12:00, 18:00）
+- 找到 Retell Discord 和 LinkedIn
+- 研究台語 ASR 開源專案（ChineseTaiwaneseWhisper）
+  - 支援 Whisper fine-tune + LoRA
+  - 有 streaming 模式
+  - T4 GPU 可跑，1:24 效能
 
 ---
 
