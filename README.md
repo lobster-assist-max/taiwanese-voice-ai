@@ -4,6 +4,7 @@
 **目標：** 將台語 ASR/TTS 整合到 Retell AI 平台
 **時程：** 2026-03-14 ~ 2026-04-14（一個月）
 **狀態：** 🟡 進行中
+**GitHub：** https://github.com/lobster-assist-max/taiwanese-voice-ai
 
 ---
 
