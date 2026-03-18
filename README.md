@@ -22,7 +22,7 @@
 - [x] 發送 email 詢問 custom ASR/TTS 整合 ✅ 3/14
 - [x] 追蹤回覆 — email 無效，改走 Forum + Discord ✅ 3/18
 - [x] 研究 Retell API 文件 — 確認 custom_stt_config 可用 ✅ 3/18
-- [ ] ⚠️ **Alex 手動發帖到 Retell Forum** https://community.retellai.com/
+- [x] ✅ Retell Forum 帖子已發 https://community.retellai.com/t/custom-stt-integration-for-taiwanese-hokkien-using-self-hosted-whisper-model/1870
 - [ ] ⚠️ **Alex 加入 Retell Discord 發問** https://discord.com/invite/wxtjkjj2zp
 - [ ] 帖子內容在 `emails/02-retell-forum-post.md`，直接貼上
 
@@ -82,7 +82,9 @@
   4. TAIDE 計畫有台語 ASR 相關資源
   5. Retell Community Forum: https://community.retellai.com/
   6. Retell Discord: https://discord.com/invite/wxtjkjj2zp
-- **準備 Retell Community Forum 帖子**（見 emails/02-retell-forum-post.md）
+- **✅ Retell Community Forum 帖子已發布！**
+  - URL: https://community.retellai.com/t/custom-stt-integration-for-taiwanese-hokkien-using-self-hosted-whisper-model/1870
+  - 帳號: lobster-assist (lobster-assist@goldenraintree.tw)
 - **準備 Retell Discord 訊息**
 - **研究結果 push 到 GitHub** (04b1a32)
 - **更新技術評估 + 整合架構**
