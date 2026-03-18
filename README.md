@@ -89,6 +89,8 @@
 - **研究結果 push 到 GitHub** (04b1a32)
 - **更新技術評估 + 整合架構**
 - ⚠️ 需要 Alex 手動發帖到 Retell Forum + Discord（bot 無法加入外部 server）
+- 15:07 收到 Retell 帳號驗證碼 email（非詢問回覆，是註冊驗證）
+- 18:00 傍晚進度報告
 
 ### 2026-03-17
 - Retell AI 仍未回覆（已過 72+ 小時）
