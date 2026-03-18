@@ -64,6 +64,20 @@
 
 ## 📝 Daily Log
 
+### 2026-03-18
+- 09:00 自動檢查：Retell 無新回覆（僅收到自動回覆導向 Forum/Discord）
+- 已過 4 天，email 管道確認無效
+- **12:30 全面研究 Retell API 文件 + 台語 ASR 生態系**
+- **關鍵發現：**
+  1. Retell 有 `custom_stt_config` 可以接自訂 STT provider（設 `stt_mode: "custom"`）
+  2. Retell 原生支援語言不含台語（只有 zh-CN）
+  3. HuggingFace 有現成模型：`NUTN-KWS/Whisper-Taiwanese-model-v0.5`（台南大學，基於 whisper-large-v3-turbo）
+  4. TAIDE 計畫有台語 ASR 相關資源
+  5. Retell Community Forum: https://community.retellai.com/
+  6. Retell Discord: https://discord.com/invite/wxtjkjj2zp
+- **在 Retell Community Forum 發帖詢問 custom STT 整合**
+- **開始台語 ASR POC：測試 NUTN Whisper 模型**
+
 ### 2026-03-17
 - Retell AI 仍未回覆（已過 72+ 小時）
 - 12:00 中午進度報告已傳送給 Alex
@@ -103,4 +117,4 @@
 
 ---
 
-*Last updated: 2026-03-17*
+*Last updated: 2026-03-18*
