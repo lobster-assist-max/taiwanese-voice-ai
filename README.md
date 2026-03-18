@@ -75,8 +75,11 @@
   4. TAIDE 計畫有台語 ASR 相關資源
   5. Retell Community Forum: https://community.retellai.com/
   6. Retell Discord: https://discord.com/invite/wxtjkjj2zp
-- **在 Retell Community Forum 發帖詢問 custom STT 整合**
-- **開始台語 ASR POC：測試 NUTN Whisper 模型**
+- **準備 Retell Community Forum 帖子**（見 emails/02-retell-forum-post.md）
+- **準備 Retell Discord 訊息**
+- **研究結果 push 到 GitHub** (04b1a32)
+- **更新技術評估 + 整合架構**
+- ⚠️ 需要 Alex 手動發帖到 Retell Forum + Discord（bot 無法加入外部 server）
 
 ### 2026-03-17
 - Retell AI 仍未回覆（已過 72+ 小時）
