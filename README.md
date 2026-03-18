@@ -3,7 +3,7 @@
 **專案代號：** TAIDE
 **目標：** 將台語 ASR/TTS 整合到 Retell AI 平台
 **時程：** 2026-03-14 ~ 2026-04-14（一個月）
-**狀態：** 🟡 進行中
+**狀態：** 🟡 進行中 (25%)
 **GitHub：** https://github.com/lobster-assist-max/taiwanese-voice-ai
 
 ---
@@ -19,19 +19,26 @@
 ## 🛤️ 策略
 
 ### Phase 1：聯繫 Retell（Week 1-2）
-- [ ] 發送 email 詢問 custom ASR/TTS 整合
-- [ ] 追蹤回覆
-- [ ] 評估他們的回應
+- [x] 發送 email 詢問 custom ASR/TTS 整合 ✅ 3/14
+- [x] 追蹤回覆 — email 無效，改走 Forum + Discord ✅ 3/18
+- [x] 研究 Retell API 文件 — 確認 custom_stt_config 可用 ✅ 3/18
+- [ ] ⚠️ **Alex 手動發帖到 Retell Forum** https://community.retellai.com/
+- [ ] ⚠️ **Alex 加入 Retell Discord 發問** https://discord.com/invite/wxtjkjj2zp
+- [ ] 帖子內容在 `emails/02-retell-forum-post.md`，直接貼上
 
 ### Phase 2：技術準備（Week 2-3）
-- [ ] 部署台語 ASR 服務（Whisper fine-tune）
-- [ ] 部署台語 TTS 服務（Tacotron2）
-- [ ] 測試 API endpoint
+- [x] 找到台語 ASR 模型：NUTN-KWS/Whisper-Taiwanese-model-v0.5 ✅ 3/18
+- [x] 建立 ASR Server（FastAPI + WebSocket + Retell endpoint）✅ 3/18
+- [ ] 租 GPU server（RunPod A10G ~$0.44/hr）
+- [ ] 部署 ASR server + 下載模型
+- [ ] 找台語音訊樣本測試辨識效果
+- [ ] 評估 TTS 方案（先用 ElevenLabs 中文 multilingual）
 
 ### Phase 3：整合（Week 3-4）
 - [ ] 根據 Retell 的回應決定整合方式
-- [ ] 實作整合
-- [ ] 測試
+- [ ] 連接 ASR server 到 Retell custom_stt_config
+- [ ] 設定 LLM WebSocket
+- [ ] 端到端測試（台語電話 → 辨識 → 回覆）
 
 ---
 
