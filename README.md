@@ -71,6 +71,16 @@
 
 ## 📝 Daily Log
 
+### 2026-03-19
+- 09:00 自動檢查：Email 5 天無回覆（管道無效），Forum 帖 ~1 天無回覆
+- 12:00 中午檢查：仍無回覆，進度報告已傳 Alex
+- 18:00 傍晚檢查：仍無回覆（Forum 帖已 ~2 天）
+- **今日總結：等待日，無技術進展。Email 管道已確認無效，Forum 帖仍在等待。**
+- **明日計畫：**
+  1. 如果 Forum 仍無回覆（超過 48 小時），在帖子上 bump
+  2. 建議不再等，直接開始台語 ASR POC（租 GPU、部署 Whisper 模型）
+  3. 追蹤 Alex 是否到 Retell Discord 發問
+
 ### 2026-03-18
 - 09:00 自動檢查：Retell 無新回覆（僅收到自動回覆導向 Forum/Discord）
 - 已過 4 天，email 管道確認無效
@@ -113,6 +123,26 @@
 - 發現 `custom_stt_config` 已支援 Azure，可能可以擴展
 - 發送初次詢問 email 至 support@retellai.com
 - 建立 GitHub repo
+- 設定 3 個追蹤 cron jobs（09:00, 12:00, 18:00）
+- 找到 Retell Discord 和 LinkedIn
+- 研究台語 ASR 開源專案（ChineseTaiwaneseWhisper）
+  - 支援 Whisper fine-tune + LoRA
+  - 有 streaming 模式
+  - T4 GPU 可跑，1:24 效能
+
+---
+
+## 💰 預算需求
+
+| 項目 | 估計費用 | 狀態 |
+|-----|---------|------|
+| GPU Server（ASR/TTS hosting）| ~$50-100/月 | 待確認 |
+| Retell AI 費用 | 依用量 | Alex 已有 |
+
+---
+
+*Last updated: 2026-03-19*
+epo
 - 設定 3 個追蹤 cron jobs（09:00, 12:00, 18:00）
 - 找到 Retell Discord 和 LinkedIn
 - 研究台語 ASR 開源專案（ChineseTaiwaneseWhisper）
