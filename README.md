@@ -71,6 +71,19 @@
 
 ## 📝 Daily Log
 
+### 2026-03-20
+- 09:00 自動檢查：Retell 仍無新回覆
+  - Email: 自動回覆導向 Forum（3/14），無人工回覆
+  - Forum: 帖子 6 天無回覆
+  - Forum Summary emails 只是一般社群摘要，非針對我們的回覆
+- ✅ **已發 follow-up email**（Day 6）至 support@retellai.com
+  - 強調已有 ASR server + Whisper model，只需確認整合路徑
+- 專案剩餘天數：25 天（截止 4/14）
+- 下一步：若 3 天內仍無回覆，考慮直接開始技術 POC 不等 Retell 確認
+- 12:00 中午檢查：仍無回覆，進度報告已傳 Alex
+- 18:00 傍晚檢查：follow-up email 也無回覆，進度報告已傳 Alex
+- **今日總結：Email 第 6 天無回覆，已發 follow-up。決策點：3/23 前無回覆就直接開始 POC。**
+
 ### 2026-03-19
 - 09:00 自動檢查：Email 5 天無回覆（管道無效），Forum 帖 ~1 天無回覆
 - 12:00 中午檢查：仍無回覆，進度報告已傳 Alex
@@ -141,7 +154,7 @@
 
 ---
 
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-20*
 epo
 - 設定 3 個追蹤 cron jobs（09:00, 12:00, 18:00）
 - 找到 Retell Discord 和 LinkedIn
