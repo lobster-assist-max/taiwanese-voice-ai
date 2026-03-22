@@ -71,6 +71,20 @@
 
 ## 📝 Daily Log
 
+### 2026-03-22
+- 09:48 自動檢查：Retell 仍無新回覆
+  - Email: 原始信 Day 8，follow-up (Day 6) 發出已 2 天，無回覆
+  - Forum: 帖子已 4 天無回覆
+  - Discord: Alex 尚未加入發問
+- 專案剩餘天數：23 天（截止 4/14）
+- **🚨 明天 3/23 是決策點 — 若仍無回覆，直接開始 POC（租 GPU、部署 Whisper）**
+- 今日為週日，持續等待中
+- Follow-up email 已超過 2 天無回覆，但明天就是決策日，不再發第二封 follow-up
+- 12:09 中午檢查：仍無回覆，進度報告已傳 Alex
+- 18:24 傍晚檢查：仍無回覆，進度報告已傳 Alex
+- **今日總結：週日等待日。Email Day 8、Forum Day 4，均無回覆。明天 3/23 是決策點。**
+- **明日計畫：** 3/23 決策日。如無回覆 → 通知 Alex 並啟動 POC（租 RunPod A10G、部署 Whisper-Taiwanese-model-v0.5）
+
 ### 2026-03-21
 - 09:00 自動檢查：Retell 仍無新回覆
   - Email: 原始信 Day 7，follow-up (Day 6) 發出已 1 天，無回覆
@@ -167,7 +181,7 @@
 
 ---
 
-*Last updated: 2026-03-21*
+*Last updated: 2026-03-22*
 epo
 - 設定 3 個追蹤 cron jobs（09:00, 12:00, 18:00）
 - 找到 Retell Discord 和 LinkedIn
